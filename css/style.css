@@ -31,7 +31,7 @@ body {
 .page {
   max-width: 330rem;
 
-  margin: 0 auto;
+  margin: 0 auto 100rem;
 }
 
 header {
@@ -58,11 +58,17 @@ h1 {
 
 main {
   display: grid;
-  gap: 32rem;
+  gap: 50rem;
 }
 
 .card {
   position: relative;
+
+  filter: drop-shadow(0 10px 10px black);
+}
+
+.card:hover{
+
 }
 
 .card img {
@@ -71,6 +77,7 @@ main {
 
   border-radius: 6rem;
 
+  opacity: 0.3;
   object-fit: cover;
 
 }
@@ -78,14 +85,13 @@ main {
 .card h3 {
   font-size: 40rem;
   line-height: 48rem;
-  box-shadow: ;
 
   display: flex;
   flex-direction: column;
   gap: 20rem;
 
   position: absolute;
-  bottom: 52rem;
+  bottom: 30rem;
   left: 28rem;
 }
 
