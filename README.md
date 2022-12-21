@@ -64,5 +64,5 @@ To access the site is simple, just click on the <a href = "https://grid-training
 - [ ] Create buttons for different types of layouts. For example: portrait, landscape, grid, expandable, etc.
 - [ ] Create landscape layout, leave the photos in landscape mode.
 - [ ] Create portrait layout, leave the photos in portrait mode.
-- [ X ] Create grid layout, let photos on display: grid with columns in 2fr and 1fr.
+- [X] Create grid layout, let photos on display: grid with columns in 2fr and 1fr.
 - [ ] Create the expandable layout, the user can click on the image and it will expand to 3fr, the rest will be 1fr.
