@@ -8,6 +8,7 @@ Grid Training
 - [Built in](#built_in)
 - [Go to](#go_to)
 - [Preview](#preview)
+- [TODO List](#todo_list)
 
 <br>
 
@@ -28,7 +29,7 @@ In this project, the grid is practiced in css, media queries, animations, transi
 
 ## Go to <a name = "go_to"></a>
 
-To access the site is simple, just click on the <a href = "#">link</a>
+To access the site is simple, just click on the <a href = "https://grid-training.vercel.app">link</a>
 
 <br>
 
@@ -40,20 +41,28 @@ To access the site is simple, just click on the <a href = "#">link</a>
 
 ### PC
 
-![Preview](image/PC.png)
+![Preview](assets/PC.png)
 
   <hr><br><br>
 
 ### Mobile
 
-![Preview](image/Mobile.png)
+![Preview](assets/Mobile.png)
 
   <hr><br><br>
 
 ### Tablet
 
-![Preview](image/Tablet.png)
+![Preview](assets/Tablet.png)
 
   <hr>
 
 </div>
+
+## TODO List <a name = "todo_list"></a>
+
+- [ ] Create buttons for different types of layouts. For example: portrait, landscape, grid, expandable, etc.
+- [ ] Create landscape layout, leave the photos in landscape mode.
+- [ ] Create portrait layout, leave the photos in portrait mode.
+- [ X ] Create grid layout, let photos on display: grid with columns in 2fr and 1fr.
+- [ ] Create the expandable layout, the user can click on the image and it will expand to 3fr, the rest will be 1fr.
