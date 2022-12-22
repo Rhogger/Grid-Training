@@ -16,7 +16,7 @@ Grid Training
 
 This project was made in the 3nd module of Explorer level 3 - Rocketseat.
 
-In this project, the grid is practiced in css, media queries, animations, transitions and responsiveness.
+In this project, the grid is practiced in css, media queries, animations, transitions, responsiveness, filters, css variables, new pseudoclasses, clamp() and the scrollbar.
 
 <br>
 
