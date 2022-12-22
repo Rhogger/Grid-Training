@@ -1,45 +1,20 @@
-
-
-@media (min-width: 320px) and (max-width: 525px) {
-  :root {
-    --fs-heading-1: 30rem;
-    --fs-heading-2: 12rem;
-  }
-}
-
-
-@media (min-width: 526px) and (max-width: 770px) {
-
-  :root {
-    -fs-heading-1: 56rem;
-    -fs-heading-2: 20rem;
-    --gap-card: 30rem;
-  }
-
-  main {
-    gap: var(--gap-card);
-  }
-
+@media (min-width: 600px) {
   #line-1 {
     grid-template-columns: 1fr 1fr;
-    gap: var(--gap-card);
   }
 
   #line-2 {
     grid-template-columns: 1fr 1fr;
-    gap: var(--gap-card);
   }
 }
 
 
-@media (min-width: 771px){
+@media (min-width: 771px) {
   #line-1 {
     grid-template-columns: 2fr 1fr;
-    gap: var(--gap-card);
   }
 
   #line-2 {
     grid-template-columns: 1fr 2fr;
-    gap: var(--gap-card);
   }
 }

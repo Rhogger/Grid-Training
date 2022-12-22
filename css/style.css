@@ -18,9 +18,11 @@
   --ff-main: 'Epilogue', sans-serif;
 
   /* MEDIDAS PARA TEXTO */
-  --fs-heading-1: 40rem;
-  --fs-heading-2: 16rem;
-  --gap-card: 40rem;
+    --fs-heading-1: clamp(30rem, 48rem, 56rem);
+    --fs-heading-2: clamp(14rem, 18rem, 24rem);
+    --fs-heading-3: clamp(24rem, 36rem, 48rem);
+    --gap-card: clamp(25rem, 30rem, 35rem);
+
   /* RESIZE 1rem = 1px*/
   font-size: 6.25%;
 }
@@ -33,8 +35,9 @@ body {
 }
 
 .page {
-  max-width: 80%;
+  max-width: clamp(330rem, 220rem + 80vw, 2200rem);
 
+  padding: 50rem;
   margin: 0 auto 100rem;
 }
 
@@ -129,7 +132,7 @@ main {
 }
 
 .card h3 {
-  font-size: 40rem;
+  font-size: var(--fs-heading-3);
   line-height: 48rem;
 
   display: flex;
